@@ -10,7 +10,7 @@ function getDate() {
         month: "long"
     }
 
-    let month = today.toLocaleDateString("en-US", options)
+    let date = today.toLocaleDateString("en-US", options)
 
-    return month
+    return date
 }
